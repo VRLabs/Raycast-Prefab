@@ -24,7 +24,6 @@
     <img src="https://img.shields.io/github/issues-pr-closed-raw/VRLabs/Raycast-Prefab.svg?style=flat-square">
   </a>
   <br />
-  <br />
 </div>
 
 ## How it works
