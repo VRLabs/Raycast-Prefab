@@ -44,7 +44,7 @@ You can grab the latest version of the Raycast Prefab in [Releases](https://gith
 
 ## License
 
-Raycast Prefab is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Raycast-Prefab/blob/dev/LICENSE).
+Raycast Prefab is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Raycast-Prefab/blob/main/LICENSE).
 
 ## Contact us
 
