@@ -11,19 +11,6 @@
     <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
   </a>
   <br />
-  <a href="https://github.com/VRLabs/Raycast-Prefab/issues">
-    <img src="https://img.shields.io/github/issues-raw/VRLabs/Raycast-Prefab.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Raycast-Prefab/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/VRLabs/Raycast-Prefab.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Raycast-Prefab/pull">
-    <img src="https://img.shields.io/github/issues-pr-raw/VRLabs/Raycast-Prefab.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Raycast-Prefab/pulls?q=is%3Apr+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-pr-closed-raw/VRLabs/Raycast-Prefab.svg?style=flat-square">
-  </a>
-  <br />
 </div>
 
 ## How it works
