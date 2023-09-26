@@ -27,7 +27,9 @@ Places an object at the hit point of a raycast
 
 * [Limb IK](http://www.root-motion.com/finalikdox/html/page12.html) hierarchy is used with a [Grounder](http://www.root-motion.com/finalikdox/html/page9.html) to cast an object onto collider surfaces.
 
-## How to use
+## Install Guide
+
+https://github.com/VRLabs/Raycast-Prefab/assets/76777936/b97b4dd0-0615-430b-9f10-9a4c40f94d43
 
 * If you dont already have [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290) installed, download and install the [Final IK Stub](https://github.com/VRLabs/Final-IK-Stub).
   * Note: Testing in Unity is not possible when using the Final IK Stub!
@@ -35,7 +37,13 @@ Places an object at the hit point of a raycast
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
 * By default, the raycast aims down from the ``Casting Target`` object.
   * If needed, you can move and rotate the ``Casting Target`` object until it "aims" at your target.
-* World particles must go inside ``Container``, which is constrained to the ``Grounder`` object, because of "Fix Transforms" affecting the emission location.
+ 
+## How to Use
+
+* Place the objects you want to raycast under the ``Container`` GameObject or constrain them to the ``Container`` GameObject.
+  * World Particles can't be Constrained to the ``Container`` GameObject and have to be parented to the ``Container`` object instead due to "Fix Transforms" affecting the emission location.
+* In game, the ``Container`` object will raycast down from the ``Casting Target`` onto any Collider which matches the Layers set up in the ``Grounder``'s Grounder IK Script (by default this is: ``Default``, ``Ignore Raycat``, ``Water`` and ``Environment``).
+  * Note that you can't change layers on your avatar. Local avatar layers will always be ``PlayerLocal`` and ``MirrorReflection``, and remote avatar layers will always be ``Player`` (with the exception of UIMenu).
 
 ## Additional notes
 
