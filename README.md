@@ -12,7 +12,7 @@
 
 Places an object at the hit point of a raycast
 
-![Raycast](https://github.com/VRLabs/Raycast-Prefab/assets/76777936/ef1015df-e147-4870-b7ec-e438458b57dc)
+![Raycast](https://github.com/VRLabs/Raycast-Prefab/assets/76777936/e06c6089-c2f2-49b2-8339-80ffe8642423)
 
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/Raycast-Prefab/releases/latest)
