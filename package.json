@@ -2,6 +2,7 @@
     "name": "dev.vrlabs.raycast-prefab",
     "displayName": "Raycast Prefab",
     "version": "1.0.999",
+    "license": "MIT",
     "unity": "2019.4",
     "description": "Places an object at the hit point of a raycast",
     "author": {
