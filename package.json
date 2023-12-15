@@ -1,0 +1,25 @@
+{
+    "name": "dev.vrlabs.raycast-prefab",
+    "displayName": "Raycast Prefab",
+    "version": "1.0.999",
+    "unity": "2019.4",
+    "description": "Places an object at the hit point of a raycast",
+    "author": {
+        "name": "VRLabs",
+        "email": "mail@vrlabs.dev",
+        "url": "https://vrlabs.dev"
+    },
+    "siteUrl": "https://github.com/VRLabs/Raycast-Prefab",
+    "vpmDependencies": {
+        "dev.vrlabs.instancer": "1.x"
+    },
+    "legacyFolders": {
+        "Assets\\VRLabs\\Raycast Prefab": "96ca89f88e52b1d41bd440736d30e35d"
+    },
+    "unityPackageDestinationFolder": "Assets/VRLabs/Raycast Prefab",
+    "unitypackageDestinationFolderMetas": {
+        "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+        "Assets/VRLabs/Raycast Prefab": "96ca89f88e52b1d41bd440736d30e35d"
+    },
+    "vccRepoCategory": "components"
+}
