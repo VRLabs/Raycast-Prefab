@@ -18,7 +18,7 @@ namespace VRLabs.ParticleDriver
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/Raycast Prefab")]
+		[MenuItem("VRLabs/Create Instance/Raycast Prefab")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
