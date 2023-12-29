@@ -18,13 +18,13 @@
     "Assets\\VRLabs\\Raycast Prefab": "96ca89f88e52b1d41bd440736d30e35d"
   },
   "unityPackageDestinationFolder": "Assets/VRLabs/Raycast Prefab",
-  "unitypackageDestinationFolderMetas": {
-    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
-    "Assets/VRLabs/Raycast Prefab": "96ca89f88e52b1d41bd440736d30e35d"
-  },
   "vccRepoCategory": "components",
   "media": {
     "previewImage": "https://github.com/VRLabs/Raycast-Prefab/blob/main/Media/Preview.webp",
     "previewGif": "https://github.com/VRLabs/Raycast-Prefab/blob/main/Media/Preview.gif"
+  },
+  "unityPackageDestinationFolderMetas": {
+    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+    "Assets/VRLabs/Raycast Prefab": "96ca89f88e52b1d41bd440736d30e35d"
   }
 }
