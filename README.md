@@ -17,8 +17,8 @@ Places an object at the hit point of a raycast
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Raycast-Prefab/releases/latest)
 
-<!-- 
-### 📦 [Add to VRChat Creator Companion]() -->
+
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.raycast-prefab)
 
 </div>
 
