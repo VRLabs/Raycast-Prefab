@@ -334,7 +334,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7684721884956187037}
-  - component: {fileID: 7684721884956187036}
   - component: {fileID: 9015598446275668401}
   m_Layer: 0
   m_Name: Container
@@ -351,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7684721884956187010}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -360,33 +359,6 @@ Transform:
   - {fileID: 5905262944077276552}
   m_Father: {fileID: 7684721885382442226}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1773428102 &7684721884956187036
-ParentConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7684721884956187010}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffsets:
-  - {x: 0, y: 0, z: 0}
-  m_RotationOffsets:
-  - {x: 0, y: 0, z: 0}
-  m_AffectTranslationX: 1
-  m_AffectTranslationY: 1
-  m_AffectTranslationZ: 1
-  m_AffectRotationX: 1
-  m_AffectRotationY: 1
-  m_AffectRotationZ: 1
-  m_Active: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 4399123825011427582}
-    weight: 1
 --- !u!114 &9015598446275668401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,7 +654,6 @@ MonoBehaviour:
   solver:
     IKPosition: {x: 0, y: -100, z: 0}
     IKPositionWeight: 1
-    initiated: 0
     root: {fileID: 6520131985843197193}
     target: {fileID: 5371434196437258920}
     IKRotationWeight: 1
