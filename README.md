@@ -4,7 +4,8 @@
 
 [![Generic badge](https://img.shields.io/github/downloads/VRLabs/Raycast-Prefab/total?label=Downloads)](https://github.com/VRLabs/Raycast-Prefab/releases/latest)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Raycast-Prefab/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/Quest-Incompatible-red?logo=Meta)](https://img.shields.io/badge/Quest-Incompatible-red?logo=Meta)
+[![Generic badge](https://img.shields.io/badge/Unity-2022.3.22f1-lightblue?logo=Unity)](https://unity.com/releases/editor/whats-new/2022.3.22)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
 
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
@@ -14,9 +15,7 @@ Places an object at the hit point of a raycast
 
 ![Raycast](https://github.com/VRLabs/Raycast-Prefab/assets/76777936/e06c6089-c2f2-49b2-8339-80ffe8642423)
 
-
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Raycast-Prefab/releases/latest)
-
 
 ### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.raycast-prefab)
 
@@ -38,7 +37,7 @@ https://github.com/VRLabs/Raycast-Prefab/assets/76777936/b97b4dd0-0615-430b-9f10
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
 * By default, the raycast aims down from the ``Casting Target`` object.
   * If needed, you can move and rotate the ``Casting Target`` object until it "aims" at your target.
- 
+
 ## How to Use
 
 * Place the objects you want to raycast under the ``Container`` GameObject or constrain them to the ``Container`` GameObject.
@@ -54,6 +53,7 @@ https://github.com/VRLabs/Raycast-Prefab/assets/76777936/b97b4dd0-0615-430b-9f10
 
 ```c++
 Constraints:        2
+Constraint Depth:   2
 Colliders:          1
 ```
 
@@ -93,4 +93,3 @@ Raycast Prefab is available as-is under MIT. For more information see [LICENSE](
 [<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
 
 </div>
-
